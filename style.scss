@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(-65deg,#274c64,rgb(71, 252, 252),#274c64);
+    height:max-content;
+    color: white;
+    font-family: 'Inter';
+}
+.logoContainer{
+    margin: 10px 0 5px 0;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.discription{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.submit_form{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    .inputContainer{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        height: 35px;
+        border-radius: 20px;
+        input{
+            width: 90%;
+            height: 100%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            padding: 0 10px 0 16px;
+        }
+        .iconContainer{
+            width: 12%;
+            height: 70%;
+            margin-right: 16px;
+            cursor: pointer;
+            img{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+    }
+    .submitbtn{
+        height: 35px;
+        font-size: 14px;
+        padding:8px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        border: 700px;
+    }
+}
+.imformationContainer{
+    display: flex;
+    margin-top: 30px;
+    .information{
+        width: 55%;
+        height: 100%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        img{
+            width: 170px;
+            margin: 5px -20px -10px -20px;
+            background-size: cover;
+        }
+        .temperature{
+            margin: -10px 20px 0 25px;
+            font-size: 40px;
+        }
+        .weatherName{
+            display: flex;
+            align-items: center;
+            margin: 15px 0 10px -12px;
+            img{
+                width: 55px;
+                margin: unset;
+                background-size: cover;
+            }
+            .name{
+                font-size: 20px;
+            }
+        }
+        .humidity,.windSpeed,.pressure,.feels_like{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    }
+}
+.Location{
+    width: 45%;
+    margin-top: 50px;
+    letter-spacing: .9px;
+    .cityName{
+        margin: 10px 0;
+        font-size: 23px;
+        span{
+            font-size: 30px;
+        }
+    }
+    .timeContainer{
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 5px;
+        span{
+            font-size: 17px;
+        }
+    }
+}
+.creatotInfo{
+    margin: 42px 0 16px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    letter-spacing: .5px;
+    svg{
+        width: 20px;
+        fill: white;
+    }
+}
